@@ -1,7 +1,7 @@
 pipeline {
 	agent any
     stages {
-        stage('Build on k8 ') {
+        stage('Build on k8s cluster ') {
             steps {           
                         sh 'pwd'
                         sh 'cp -R helm/* .'
