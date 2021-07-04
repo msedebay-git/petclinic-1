@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: msedebaydockerhub/petclinic
+  repository: talentnetwork/containerofcats
   tag: latest
   pullPolicy: IfNotPresent
 
