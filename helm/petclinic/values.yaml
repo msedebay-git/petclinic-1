@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: talentnetwork/containerofcats
+  repository: talentnetwork/petclinic
   tag: latest
   pullPolicy: IfNotPresent
 
