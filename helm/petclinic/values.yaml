@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: mongo-express
+  repository: mongo-expressimage
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
