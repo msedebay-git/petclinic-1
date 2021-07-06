@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: mongo-expressimage
+  repository: talentnetwork/petclinicimage
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
