@@ -5,8 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: msedebaydockerhub/containerofcats
-  tag: latest
+  repository: mongo-express
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
