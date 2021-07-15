@@ -9,8 +9,4 @@ spec:
     apiVersion: extensions/v1beta1
     kind: Deployment
     name: petclinic-deployment
-  metrics:
-  - type: Resource
-    resource:
-      name: memory
       targetAverageUtilization: 50
