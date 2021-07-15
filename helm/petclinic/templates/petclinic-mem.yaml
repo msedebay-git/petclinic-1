@@ -4,9 +4,9 @@ metadata:
   name: petclinic-hpa
 spec:
   maxReplicas: 5
-  minReplicas: 1
+  minReplicas: 2
   scaleTargetRef:
     apiVersion: extensions/v1beta1
     kind: Deployment
     name: petclinic-deployment
-  targetAverageUtilization: 50
+  targetAverageUtilization: 60
