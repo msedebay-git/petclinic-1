@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: talentnetwork/petclinicimage
+  repository: msedebaydockerhub/petclinic
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
